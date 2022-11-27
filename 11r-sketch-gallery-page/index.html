@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CCLab Project</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="libraries/p5.min.js"></script>
+  <!-- Uncomment the line below if you use audio. -->
+  <!-- <script src="libraries/p5.sound.min.js"></script> -->
+</head>
+
+<style>
+  *{box-sizing: border-box;}
+  body{margin: 0;}
+  .header{
+    background-color: rgb(253, 234, 238);
+    padding: 10px;
+    text-align: center;
+  }
+  .topnav a{
+    float:center;
+    display:block;
+    color:pink;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  .topnav a:hover{
+    background-color: rgb(236, 99, 122);
+    color: white;
+  }
+  .column{
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+ 
+  .row:after{
+    content:"";
+    display:table;
+    clear:both;
+  }
+  @media screen and (max-width:600px) {
+    .column{ 
+    width: 100%;
+  } ;
+  }
+</style>
+
+<body>
+
+ <div class="header">
+  <h1>Stuffies Recreation</h1>
+  <p>Looking back to my first CCL Mini Project ~ </p>
+ </div>
+
+ <div class="topnav">
+  <a href="https://wp.nyu.edu/nyushanghai-jaidynp/2022/09/19/mini-project-1-drawing-with-code/">Documentation Blog Post</a>
+ </div>
+
+ <div class="row">
+  <div class="column">
+    <h2> Description </h2>
+    <p> This was a sketch I did on p5js as my first mini project for class.
+      I was recreating a picture I took of some stuffed toys I have on my bed.
+    </p>
+  </div>
+
+   <!-- the following div will contain the p5 canvas. -->
+   <div id="canvasContainer">
+   </div>
+ </div>
+  <!-- the script tag below should always be at the bottom, right before the closing body tag -->
+  <script src="sketch.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+
+#p5-canvas {
+  position:relative;
+  left: calc(50% - 200px); 
+  top: calc(50%- 150px);  
+  padding-bottom: 5px;
+}
+
+
+
+
+h1{
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-shadow: 3px 3px 3px rgb(236, 99, 122), 4px 3px rgb(236, 99, 122);
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+  text-transform: capitalize;
+  text-shadow: 3px 3px 3px pink, 4px 3px pink;
+}
+
+.header p{ 
+  font-size: 17px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 4.0;
+}
+
+.column{
+  justify-content: center;
+  align-items: center;
+}
+
+
+
