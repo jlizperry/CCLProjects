@@ -14,18 +14,62 @@
   <!-- <script src="libraries/p5.sound.min.js"></script> -->
 </head>
 
+<style>
+ 
+.header{
+  display: block;
+  background-color:#3e1928;
+  
+}
+.row:after{
+  content: "";
+  clear: both;
+}
+   .instruction{
+    float: left;
+    width: 25%;
+    padding: 30px;
+    background-color: #3e1928;
+    border-color: #9E5D78;
+    border-radius: 5px;
+    border-style:dotted;
+
+  }
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;}
+  
+  .application{
+    float: center;
+  }
+</style>
+
 <body>
 
-  <div class="header">
-    <h1>Avatar Builder!</h1>
-  </div>
+ <div class="header">
+  <h1>Avatar Builder!</h1>
+ </div>
+   
+
+    <div class="instruction">
+      <h2>Instructions: </h2>
+      <p> 1. Pick your desired color.</p>
+      <p>2. Pick your desired option. </p>
+      <p> 3. Note that whatever is picked first </p>
+      <p>will be covered up by what is picked next.</p></p>
+  
+    </div>
+    
 
   <!-- the following div will contain the p5 canvas. -->
   <!-- <div id="canvasContainer">
   </div> -->
+  <div class="application">
     <div id="container">
-    <div id="sketch">
-
+      <div id="sketch">
+  </div>
+   
   <!-- <p>Project Description</p> -->
 
   <!-- the script tag below should always be at the bottom, right before the closing body tag -->
