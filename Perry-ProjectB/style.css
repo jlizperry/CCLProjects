@@ -1,8 +1,33 @@
 html, body {
-margin-left: 100px;
+  margin:0;
   padding: 0;
+  background-color:#682D46 ;
 }
 
+body{
+  margin:100px;
+  display:contents;
+  justify-content: center;
+  align-items: center;
+}
 canvas {
   display: block;
+}
+
+#container {
+   min-height: 100vh;  
+   min-height: -webkit-fill-available; 
+  display:flex;
+ 
+ }
+
+#sketch {
+position:relative;
+display: inline;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color:#fff6d3
 }
